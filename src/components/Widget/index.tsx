@@ -66,7 +66,8 @@ function Widget({
     }
 
     handleSubmit?.(userInput);
-    dispatch(addUserMessage(userInput));
+//     dispatch(addUserMessage(userInput));
+    console.log("dispatch addUserMessage Removed");
     handleNewUserMessage(userInput);
     event.target.message.value = '';
   }
